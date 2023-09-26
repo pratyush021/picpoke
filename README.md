@@ -1,5 +1,9 @@
 # picpoke
-This is an Instagram clone, made with Spring Boot and ReactJS 
+This is an Instagram clone. 
+
+1. tRPC for backend
+2. zod for input validation library 
+
 
 ### basic functionalities - already implemented 
 1. Upload photos
