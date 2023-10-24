@@ -4,6 +4,8 @@ This is an Instagram clone.
 1. tRPC for backend
 2. zod for input validation library 
 
+1. 18m:00
+2. 
 
 ### basic functionalities - already implemented 
 1. Upload photos
