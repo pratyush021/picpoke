@@ -1,6 +1,5 @@
 package com.instagram.api.service;
 
-
 import com.instagram.api.entity.Post;
 import com.instagram.api.entity.User;
 import com.instagram.api.repository.UserRepository;
@@ -28,13 +27,9 @@ public class UserService {
     }
 
     public User updateUser(User user, Integer userid) {
-        //object to be updated -> object whose id is "userid"
+        // object to be updated -> object whose id is "userid"
         User newUser = this.userRepository.findById(userid).get();
-
-
         Post post = new Post();
-
-
         return newUser;
 
     }
