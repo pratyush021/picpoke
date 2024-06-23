@@ -22,5 +22,16 @@ public class UserService {
         return this.userList;
     }
 
+    public User getByTag(String tag) {
+        if(userList != null) {
+            for (User user : userList) {
+                if (user.getUserTag().equals(tag)) {
+                    return user;
+                }
+            }
+        }
+        return User.builder().build();
+    }
+
 
 }
